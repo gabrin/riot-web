@@ -48,7 +48,7 @@ module.exports = React.createClass({
     onAction: function(payload) {
         // Disabling this as I find it really really annoying, and was used to the
         // previous behaviour - see https://github.com/vector-im/riot-web/issues/3348
-/*        
+/*
         switch (payload.action) {
             // Clear up the text field when a room is selected.
             case 'view_room':
@@ -57,7 +57,7 @@ module.exports = React.createClass({
                 }
                 break;
         }
-*/        
+*/
     },
 
     onChange: function() {
@@ -126,7 +126,7 @@ module.exports = React.createClass({
                     <TintableSvg
                         key="button"
                         className="mx_SearchBox_searchButton"
-                        src="img/icons-search-copy.svg" width="13" height="13"
+                        src="" width="13" height="13"
                     />,
                     <input
                         key="searchfield"

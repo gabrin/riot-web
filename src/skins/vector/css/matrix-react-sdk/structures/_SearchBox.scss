@@ -17,11 +17,14 @@ limitations under the License.
 .mx_SearchBox {
     height: 24px;
     margin-left: 16px;
-    margin-right: 16px;
+    margin-right: 0px;
     padding-top: 24px;
     padding-bottom: 22px;
-
+    border-bottom: 1px solid rgba(118, 207, 166, 0.2);
     display: flex;
+    -webkit-box-shadow: 0 8px 6px -6px rgba(118, 207, 166, 0.2);
+    -moz-box-shadow: 0 8px 6px -6px rgba(118, 207, 166, 0.2);
+    box-shadow: 0 8px 6px -6px rgba(118, 207, 166, 0.2);
 }
 
 .mx_SearchBox_searchButton {
@@ -42,9 +45,10 @@ limitations under the License.
     font-size: 12px;
     margin-top: -2px;
     height: 24px;
-    border: 0px ! important;
-    /* border-bottom: 1px solid rgba(0, 0, 0, 0.1) ! important; */
-    border: 0px;
+    line-height: normal;
+    border: 1px solid #F2F2F2;
+    border-radius: 2px;
+    padding: 6px 15px 6px 10px;
 }
 
 .mx_SearchBox_minimise,
