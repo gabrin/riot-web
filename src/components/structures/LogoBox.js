@@ -143,8 +143,7 @@ module.exports = React.createClass({
         var self = this;
         return (
             <div className="mx_LogoBox">
-            { toggleCollapse }
-            <div>Logo Box</div>
+            <a>Logo Box</a>
             </div>
         );
     }

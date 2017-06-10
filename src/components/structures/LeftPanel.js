@@ -122,7 +122,9 @@ var LeftPanel = React.createClass({
 
         return (
             <aside className={classes} style={{ opacity: this.props.opacity }}>
-                <LogoBox className="mx_LogoBox">LOGIN BOX</LogoBox>
+                <LogoBox className="mx_LogoBox">
+
+                </LogoBox>
 
                 <SearchBox collapsed={ this.props.collapsed } onSearch={ this.onSearch } />
                 { collapseButton }
