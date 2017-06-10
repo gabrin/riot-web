@@ -37,7 +37,7 @@ limitations under the License.
     order: 1;
 
     flex: 1 1 0;
-
+    border-right: 1px solid rgba(118, 207, 166, 0.2);
     overflow-y: auto;
     z-index: 6;
 }
@@ -48,10 +48,8 @@ limitations under the License.
 
 .mx_LeftPanel .mx_BottomLeftMenu {
     order: 3;
-
-    border-top: 1px solid rgba(118, 207, 166, 0.2);
+    border-right: 1px solid rgba(118, 207, 166, 0.2);
     margin-left: 16px; /* gutter */
-    margin-right: 16px; /* gutter */
     flex: 0 0 60px;
     z-index: 1;
 }
@@ -78,7 +76,7 @@ limitations under the License.
 .collapsed .mx_BottomLeftMenu_createRoom,
 .collapsed .mx_BottomLeftMenu_people,
 .collapsed .mx_BottomLeftMenu_settings {
-    margin-right: 0px ! important;
+    margin-right: 5px ! important;
     padding-top: 3px ! important;
     padding-bottom: 3px ! important;
 }
@@ -92,6 +90,7 @@ limitations under the License.
 
 .mx_LeftPanel .mx_BottomLeftMenu_settings {
     float: right;
+    margin-right: 5px ! important;
 }
 
 .mx_LeftPanel.collapsed .mx_BottomLeftMenu_settings {

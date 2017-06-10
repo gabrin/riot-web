@@ -13,18 +13,22 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
-
+.mx_LogoBox {
+  height: 24px;
+  margin-left: 16px;
+  margin-right: 0px;
+  padding-top: 24px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid rgba(118, 207, 166, 0.2);
+  display: flex;
+}
 .mx_SearchBox {
     height: 24px;
     margin-left: 16px;
     margin-right: 0px;
-    padding-top: 24px;
+    padding-top: 12px;
     padding-bottom: 22px;
-    border-bottom: 1px solid rgba(118, 207, 166, 0.2);
     display: flex;
-    -webkit-box-shadow: 0 8px 6px -6px rgba(118, 207, 166, 0.2);
-    -moz-box-shadow: 0 8px 6px -6px rgba(118, 207, 166, 0.2);
-    box-shadow: 0 8px 6px -6px rgba(118, 207, 166, 0.2);
 }
 
 .mx_SearchBox_searchButton {
@@ -42,15 +46,19 @@ limitations under the License.
     flex: 1 1 auto;
     width: 0px;
     font-family: 'Open Sans', Arial, Helvetica, Sans-Serif;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: -2px;
     height: 24px;
     line-height: normal;
     border: 1px solid #F2F2F2;
     border-radius: 2px;
     padding: 6px 15px 6px 10px;
+    background-color: #F2F2F2;
 }
+.mx_SearchBox_search:focus {
+  background-color: #FFFFFF;
 
+}
 .mx_SearchBox_minimise,
 .mx_SearchBox_maximise {
     margin-top: 3px;

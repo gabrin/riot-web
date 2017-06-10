@@ -31,7 +31,6 @@ limitations under the License.
     border-bottom: 1px solid rgba(118, 207, 166, 0.2);
     display: -webkit-box;
     display: -ms-flexbox;
-    box-shadow: 0 8px 6px -6px rgba(118, 207, 166, 0.2);
 }
 
 .mx_RoomView_fileDropTarget {
@@ -107,7 +106,7 @@ limitations under the License.
 
     justify-content: flex-end;
 
-    background: #F7FBFC;
+
 }
 
 .mx_RoomView_searchResultsPanel .mx_RoomView_messageListWrapper {
@@ -128,6 +127,7 @@ limitations under the License.
     width: 100%;
     list-style-type: none;
     padding: 0px;
+    /*background: #F7FBFC;*/
 }
 
 .mx_RoomView_MessageList li {
@@ -172,8 +172,7 @@ hr.mx_RoomView_myReadMarker {
 
 .mx_RoomView_statusArea {
     order: 5;
-
-    width: 100%;
+    border-left: 1px solid rgba(118, 207, 166, 0.2);
     flex: 0 0 auto;
 
     max-height: 0px;

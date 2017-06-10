@@ -98,6 +98,7 @@ var LeftPanel = React.createClass({
         var RoomList = sdk.getComponent('rooms.RoomList');
         var BottomLeftMenu = sdk.getComponent('structures.BottomLeftMenu');
         var SearchBox = sdk.getComponent('structures.SearchBox');
+        var LogoBox = sdk.getComponent('structures.LogoBox');
 
         var collapseButton;
         var classes = "mx_LeftPanel mx_fadable";
@@ -121,6 +122,8 @@ var LeftPanel = React.createClass({
 
         return (
             <aside className={classes} style={{ opacity: this.props.opacity }}>
+                <LogoBox className="mx_LogoBox">LOGIN BOX</LogoBox>
+
                 <SearchBox collapsed={ this.props.collapsed } onSearch={ this.onSearch } />
                 { collapseButton }
                 { callPreview }

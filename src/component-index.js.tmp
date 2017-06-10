@@ -1,0 +1,90 @@
+/*
+Copyright 2015, 2016 OpenMarket Ltd
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+
+/*
+ * THIS FILE IS AUTO-GENERATED
+ * You can edit it you like, but your changes will be overwritten,
+ * so you'd just be trying to swim upstream like a salmon.
+ * You are not a salmon.
+ */
+
+let components = require('matrix-react-sdk/lib/component-index').components;
+if (!components) {
+    throw new Error("'matrix-react-sdk/lib/component-index' didn't export components");
+}
+import structures$BottomLeftMenu from './components/structures/BottomLeftMenu';
+structures$BottomLeftMenu && (components['structures.BottomLeftMenu'] = structures$BottomLeftMenu);
+import structures$CompatibilityPage from './components/structures/CompatibilityPage';
+structures$CompatibilityPage && (components['structures.CompatibilityPage'] = structures$CompatibilityPage);
+import structures$HomePage from './components/structures/HomePage';
+structures$HomePage && (components['structures.HomePage'] = structures$HomePage);
+import structures$LeftPanel from './components/structures/LeftPanel';
+structures$LeftPanel && (components['structures.LeftPanel'] = structures$LeftPanel);
+import structures$LogoBox from './components/structures/LogoBox';
+structures$LogoBox && (components['structures.LogoBox'] = structures$LogoBox);
+import structures$RightPanel from './components/structures/RightPanel';
+structures$RightPanel && (components['structures.RightPanel'] = structures$RightPanel);
+import structures$RoomDirectory from './components/structures/RoomDirectory';
+structures$RoomDirectory && (components['structures.RoomDirectory'] = structures$RoomDirectory);
+import structures$RoomSubList from './components/structures/RoomSubList';
+structures$RoomSubList && (components['structures.RoomSubList'] = structures$RoomSubList);
+import structures$SearchBox from './components/structures/SearchBox';
+structures$SearchBox && (components['structures.SearchBox'] = structures$SearchBox);
+import structures$ViewSource from './components/structures/ViewSource';
+structures$ViewSource && (components['structures.ViewSource'] = structures$ViewSource);
+import views$context_menus$MessageContextMenu from './components/views/context_menus/MessageContextMenu';
+views$context_menus$MessageContextMenu && (components['views.context_menus.MessageContextMenu'] = views$context_menus$MessageContextMenu);
+import views$context_menus$RoomTileContextMenu from './components/views/context_menus/RoomTileContextMenu';
+views$context_menus$RoomTileContextMenu && (components['views.context_menus.RoomTileContextMenu'] = views$context_menus$RoomTileContextMenu);
+import views$dialogs$BugReportDialog from './components/views/dialogs/BugReportDialog';
+views$dialogs$BugReportDialog && (components['views.dialogs.BugReportDialog'] = views$dialogs$BugReportDialog);
+import views$dialogs$ChangelogDialog from './components/views/dialogs/ChangelogDialog';
+views$dialogs$ChangelogDialog && (components['views.dialogs.ChangelogDialog'] = views$dialogs$ChangelogDialog);
+import views$directory$NetworkDropdown from './components/views/directory/NetworkDropdown';
+views$directory$NetworkDropdown && (components['views.directory.NetworkDropdown'] = views$directory$NetworkDropdown);
+import views$elements$ImageView from './components/views/elements/ImageView';
+views$elements$ImageView && (components['views.elements.ImageView'] = views$elements$ImageView);
+import views$elements$Spinner from './components/views/elements/Spinner';
+views$elements$Spinner && (components['views.elements.Spinner'] = views$elements$Spinner);
+import views$globals$GuestWarningBar from './components/views/globals/GuestWarningBar';
+views$globals$GuestWarningBar && (components['views.globals.GuestWarningBar'] = views$globals$GuestWarningBar);
+import views$globals$MatrixToolbar from './components/views/globals/MatrixToolbar';
+views$globals$MatrixToolbar && (components['views.globals.MatrixToolbar'] = views$globals$MatrixToolbar);
+import views$globals$NewVersionBar from './components/views/globals/NewVersionBar';
+views$globals$NewVersionBar && (components['views.globals.NewVersionBar'] = views$globals$NewVersionBar);
+import views$login$VectorCustomServerDialog from './components/views/login/VectorCustomServerDialog';
+views$login$VectorCustomServerDialog && (components['views.login.VectorCustomServerDialog'] = views$login$VectorCustomServerDialog);
+import views$login$VectorLoginFooter from './components/views/login/VectorLoginFooter';
+views$login$VectorLoginFooter && (components['views.login.VectorLoginFooter'] = views$login$VectorLoginFooter);
+import views$login$VectorLoginHeader from './components/views/login/VectorLoginHeader';
+views$login$VectorLoginHeader && (components['views.login.VectorLoginHeader'] = views$login$VectorLoginHeader);
+import views$messages$DateSeparator from './components/views/messages/DateSeparator';
+views$messages$DateSeparator && (components['views.messages.DateSeparator'] = views$messages$DateSeparator);
+import views$messages$MessageTimestamp from './components/views/messages/MessageTimestamp';
+views$messages$MessageTimestamp && (components['views.messages.MessageTimestamp'] = views$messages$MessageTimestamp);
+import views$rooms$DNDRoomTile from './components/views/rooms/DNDRoomTile';
+views$rooms$DNDRoomTile && (components['views.rooms.DNDRoomTile'] = views$rooms$DNDRoomTile);
+import views$rooms$RoomDropTarget from './components/views/rooms/RoomDropTarget';
+views$rooms$RoomDropTarget && (components['views.rooms.RoomDropTarget'] = views$rooms$RoomDropTarget);
+import views$rooms$RoomTooltip from './components/views/rooms/RoomTooltip';
+views$rooms$RoomTooltip && (components['views.rooms.RoomTooltip'] = views$rooms$RoomTooltip);
+import views$rooms$SearchBar from './components/views/rooms/SearchBar';
+views$rooms$SearchBar && (components['views.rooms.SearchBar'] = views$rooms$SearchBar);
+import views$settings$IntegrationsManager from './components/views/settings/IntegrationsManager';
+views$settings$IntegrationsManager && (components['views.settings.IntegrationsManager'] = views$settings$IntegrationsManager);
+import views$settings$Notifications from './components/views/settings/Notifications';
+views$settings$Notifications && (components['views.settings.Notifications'] = views$settings$Notifications);
+export {components};
