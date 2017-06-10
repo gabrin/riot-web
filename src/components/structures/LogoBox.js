@@ -23,6 +23,7 @@ var dis = require('matrix-react-sdk/lib/dispatcher');
 var rate_limited_func = require('matrix-react-sdk/lib/ratelimitedfunc');
 var AccessibleButton = require('matrix-react-sdk/lib/components/views/elements/AccessibleButton');
 
+
 module.exports = React.createClass({
     displayName: 'LogoBox',
 
@@ -90,7 +91,12 @@ module.exports = React.createClass({
         this.refs.Logo.value = "";
         this.onChange();
     },
-
+    getLabel: function(label, show) {
+        if (show) {
+            var RoomTooltip = sdk.getComponent("rooms.RoomTooltip");
+            return <RoomTooltip className="mx_BottomLeftMenu_tooltip" label={label} />;
+        }
+    },
     render: function() {
         var TintableSvg = sdk.getComponent('elements.TintableSvg');
 
